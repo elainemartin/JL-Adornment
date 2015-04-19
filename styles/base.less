@@ -579,9 +579,6 @@ body:not(.has-banner-image).transparent-header .show-on-scroll-wrapper {
   top: -20px;
   left: 0;
   width:100%
-  @media only screen and (min-width: 768px) {
-    width: @pageWidth !important;
-  }
   visibility: hidden;
   pointer-events: none;
   .border-box;
@@ -694,6 +691,9 @@ body:not(.always-use-overlay-nav) {
 #header {
 
   width: 100%;
+  @media only screen and (min-width: 768px) {
+    width: @pageWidth !important;
+  }
 
   #logoWrapper,
   #siteTitleWrapper,
