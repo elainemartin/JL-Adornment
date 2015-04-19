@@ -373,7 +373,7 @@ blockquote {
 .footer-inner,
 .pre-footer-inner { 
   max-width: @pageWidth;
-  background-color:#ffffff !important;
+  background-color:#ffffff;
 }
 
 // Fade in header after the logo image is centered
@@ -459,8 +459,11 @@ body:not(.has-banner-image) {
 }
 
 #preFooter {
-  background-color: fade(@preFooterBgColor, 100%);
+  //background-color: fade(@preFooterBgColor, 100%);
   .font-smoothing(@preFooterBgColor);
+  background-image: url("http://static1.squarespace.com/static/548f9107e4b087950bdc1476/t/553337aee4b0fcb142f0de52/1429419950451/FEATHER-BG.jpg");
+  background-position: 50% 50%;
+  background-repeat: repeat;
 }
 #preFooter {
   color: @preFooterTextColor;
