@@ -390,7 +390,7 @@ html:not(.no-js) {
   margin-left:auto;
   margin-right:auto;
   //width: 80%;
-  width: @pageWidth;
+  width: @pageWidth-@sitePadding*2;
   line-height: 1em;
   position: relative;
   a {
@@ -548,7 +548,7 @@ body:not(.has-banner-image) {
   .border-box;
   width: auto;
   margin: auto;
-  max-width: @pageWidth-@sitePadding*2;
+  max-width: @pageWidth;
   padding: @pagePadding @sitePadding;
 }
 
