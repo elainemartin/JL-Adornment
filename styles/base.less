@@ -390,7 +390,7 @@ html:not(.no-js) {
   margin-left:auto;
   margin-right:auto;
   //width: 80%;
-  width: @pageWidth - (@sitePadding * 2);
+  width: @pageWidth - @sitePadding;
   line-height: 1em;
   position: relative;
   a {
@@ -411,7 +411,7 @@ html:not(.no-js) {
 }
 .header-inner {
   padding: @headerPadding 0;
-  width: @pageWidth - (@sitePadding * 2);
+  width: @pageWidth - @sitePadding;
   .border-box;
 }
 .footer-inner{
@@ -688,7 +688,7 @@ body:not(.always-use-overlay-nav) {
 
 #header {
 
-  width: @pageWidth - (@sitePadding * 2);
+  width: @pageWidth - @sitePadding;
 
   #logoWrapper,
   #siteTitleWrapper,
