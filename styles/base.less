@@ -389,8 +389,8 @@ html:not(.no-js) {
   //left: 0;
   margin-left:auto;
   margin-right:auto;
-  width: 80%;
-  //width: @pageWidth;
+  //width: 80%;
+  width: @pageWidth;
   line-height: 1em;
   position: relative;
   a {
@@ -411,7 +411,7 @@ html:not(.no-js) {
 }
 .header-inner {
   padding: @headerPadding 0;
-  width: 80%;
+  width: @pageWidth;
   .border-box;
 }
 .footer-inner{
@@ -688,7 +688,7 @@ body:not(.always-use-overlay-nav) {
 
 #header {
 
-  width: 90%;
+  width: @pageWidth;
 
   #logoWrapper,
   #siteTitleWrapper,
