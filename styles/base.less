@@ -411,7 +411,7 @@ html:not(.no-js) {
 }
 .header-inner {
   padding: @headerPadding 0;
-  width: @pageWidth;
+  width: @pageWidth-@sitePadding*2;
   .border-box;
 }
 .footer-inner{
@@ -548,7 +548,7 @@ body:not(.has-banner-image) {
   .border-box;
   width: auto;
   margin: auto;
-  max-width: @pageWidth;
+  max-width: @pageWidth-@sitePadding*2;
   padding: @pagePadding @sitePadding;
 }
 
@@ -688,7 +688,7 @@ body:not(.always-use-overlay-nav) {
 
 #header {
 
-  width: @pageWidth;
+  width: @pageWidth-@sitePadding*2;
 
   #logoWrapper,
   #siteTitleWrapper,
