@@ -390,9 +390,9 @@ html:not(.no-js) {
   margin-left:auto;
   margin-right:auto;
   width: 100%;
-  //@media only screen and (min-width: 768px) {
-    //width: @pageWidth !important;
-  //}
+  @media only screen and (min-width: 768px) {
+    width: @pageWidth !important;
+  }
   line-height: 1em;
   position: relative;
   a {
@@ -413,7 +413,7 @@ html:not(.no-js) {
 }
 .header-inner {
   padding: @headerPadding 0;
-  width: 60%;
+  width: 100%;
   .border-box;
 }
 .footer-inner{
@@ -691,9 +691,9 @@ body:not(.always-use-overlay-nav) {
 #header {
 
   width: 100%;
-  //@media only screen and (min-width: 768px) {
-    //width: @pageWidth !important;
-  //}
+  @media only screen and (min-width: 768px) {
+    width: @pageWidth !important;
+  }
 
   #logoWrapper,
   #siteTitleWrapper,
