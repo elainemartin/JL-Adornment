@@ -824,15 +824,13 @@ body:not(.always-use-overlay-nav) {
 // Collection THUMBNAILS
 
 .banner-thumbnail-wrapper {
-  background-color: fade(@bannerOverlayColor,100%);
+  //background-color: fade(@bannerOverlayColor,100%);
   .font-smoothing(@bannerOverlayColor);
   //.font-smoothing(@bannerOverlayColor);
   .color-overlay {
     position: relative;
     //top: 0;
-    margin-right: auto;
-    bottom: 0;
-    margin-left: auto;
+    //bottom: 0;
     //background-color: @bannerOverlayColor;
     z-index: 99;
   }
@@ -840,6 +838,8 @@ body:not(.always-use-overlay-nav) {
 
 .banner-thumbnail-wrapper {
   position: relative;
+  margin-right: auto;
+  margin-left: auto;
   overflow: hidden;
   padding: @bannerOverlayPadding 0;
   width: @pageWidth;
