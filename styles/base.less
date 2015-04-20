@@ -842,7 +842,10 @@ body:not(.always-use-overlay-nav) {
   margin-left: auto;
   overflow: visible !important;
   padding: @bannerOverlayPadding 0;
-  width: @pageWidth;
+  width: 100%;
+  @media only screen and (min-width: 769px) {
+    width: @pageWidth;
+  }
   height: auto !important;
 }
 
