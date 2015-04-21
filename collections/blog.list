@@ -60,6 +60,10 @@
         {.section body}
           <div class="e-content">{@}</div>
         {.end}
+        //<div class="excerpt-content">
+          //<div class="p-summary">{body|truncate 400}</div>
+          //<p class="entry-more-link"><a href="{fullUrl}"></a></p>
+        //{.end}
       {.end}
     </div>
 
