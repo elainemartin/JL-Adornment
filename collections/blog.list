@@ -63,7 +63,7 @@
         </div>
         {.end}
         <div class="excerpt-content">
-          <div class="p-summary">{@|truncate 36}</div>
+          <div class="p-summary">{description|truncate 400}</div>
           <p class="entry-more-link"><a href="{fullUrl}"></a></p>
         </div>
       {.end}
