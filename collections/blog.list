@@ -57,9 +57,6 @@
           <p class="entry-more-link"><a href="{fullUrl}"></a></p>
         </div>
       {.or}
-        //{.section body}
-          //<div class="e-content">{@}</div>
-        //{.end}
         {.main-image?}
         <div class="excerpt-thumb">
           <a href="{fullUrl}" class="excerpt-image"><img {@|image-meta} /></a>
