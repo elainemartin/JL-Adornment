@@ -57,13 +57,18 @@
           <p class="entry-more-link"><a href="{fullUrl}"></a></p>
         </div>
       {.or}
-        {.section body}
-          <div class="e-content">{@}</div>
-        {.end}
-        //<div class="excerpt-content">
-          //<div class="p-summary">{body|truncate 400}</div>
-          //<p class="entry-more-link"><a href="{fullUrl}"></a></p>
+        //{.section body}
+          //<div class="e-content">{@}</div>
         //{.end}
+        {.main-image?}
+        <div class="excerpt-thumb">
+          <a href="{fullUrl}" class="excerpt-image"><img {@|image-meta} /></a>
+        </div>
+        {.end}
+        <div class="excerpt-content">
+          <div class="p-summary">{body|truncate 36}</div>
+          <p class="entry-more-link"><a href="{fullUrl}"></a></p>
+        </div>
       {.end}
     </div>
 
