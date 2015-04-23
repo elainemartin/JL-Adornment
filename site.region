@@ -48,7 +48,7 @@
               <div class="banner-thumbnail-wrapper">
               {.section mainImage}
                 <div class="color-overlay"></div>
-                <figure id="thumbnail" class="loading content-fill"><img {@|image-meta} data-load="false" /></figure>
+                <figure id="thumbnail" class="loading content-fill"><img {@|image-meta} data-load="false" id="bannerimg"/></figure>
               {.end}
                 <div class="desc-wrapper tmpl-loading" data-collection-id="{id}">
                   <h1 class="page-title">{collection.title}</h1>
