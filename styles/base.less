@@ -845,11 +845,12 @@ body:not(.always-use-overlay-nav) {
   overflow: hidden;
   padding: @bannerOverlayPadding 0;
   width: 100%;
-  @media only screen and (min-width: 1025px) {
-    width: @pageWidth;
-    margin-right: auto;
-    margin-left: auto;
-  }
+  max-width: @pageWidth;
+  margin-right: auto;
+  margin-left: auto;
+  //@media only screen and (min-width: 1025px) {
+    //width: @pageWidth;
+  //}
   //height: auto !important;
 }
 
