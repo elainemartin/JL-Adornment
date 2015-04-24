@@ -836,7 +836,7 @@ body:not(.always-use-overlay-nav) {
     //top: 0;
     //bottom: 0;
     //background-color: @bannerOverlayColor;
-    z-index: 999;
+    z-index: 99;
   }
 }
 
@@ -845,11 +845,10 @@ body:not(.always-use-overlay-nav) {
   overflow: hidden;
   padding: @bannerOverlayPadding 0;
   width: 100%;
-  max-width: @pageWidth;
   margin-right: auto;
   margin-left: auto;
   //@media only screen and (min-width: 1025px) {
-    //width: @pageWidth;
+      max-width: @pageWidth;
   //}
   //height: auto !important;
 }
